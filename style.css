@@ -47,6 +47,11 @@ body {
 .topNav a{
     display:inline-block;
     padding:18px;
+    font-size: 15px;
+    text-decoration: none;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 2px;
 }
 /* Nav */
 
@@ -114,6 +119,16 @@ header p {
     from, to { border-color: transparent }
     50% { border-color: whitesmoke }
   }
+
+header img {
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    margin-bottom: 30px;
+    background-image: url('images/profilePhoto.jpg');
+    background-position: 50% 50%;
+    background-size: cover;
+}
 
 pic {
     display: inline-block;
